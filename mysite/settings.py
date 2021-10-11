@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# Redirects successful login to the top-level index
+
+LOGIN_REDIRECT_URL = '/'
